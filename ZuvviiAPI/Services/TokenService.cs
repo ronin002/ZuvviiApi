@@ -23,7 +23,6 @@ namespace ZuvviiAPI.Services
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                
-
                 Expires = DateTime.UtcNow.AddHours(8),
 
                 SigningCredentials = new SigningCredentials(

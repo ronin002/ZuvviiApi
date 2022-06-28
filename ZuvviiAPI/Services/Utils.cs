@@ -3,7 +3,7 @@ using System.Text.RegularExpressions;
 
 namespace ZuvviiAPI.Services
 {
-    public class Utils
+    public static class Utils
     {
         public static bool ValidMail(string mail)
         {

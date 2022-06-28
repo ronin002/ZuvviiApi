@@ -61,11 +61,9 @@ namespace ZuvviiUnitTest
         [Test]
         public async Task POST_Login_Failure2()
         {
-
-            var controller = new UserController(GetUserById);
-
-            var result = controller.GetProduct(999);
-            Assert.IsInstanceOfType(result, typeof(NotFoundResult));
+            var user = new DtoLogin { Email = "edson1@gmail.com", Password = "fdwfwef" };
+            var response = await _client.GetAsync("/api/v1/users/login");
+            Assert.AreEqual(HttpStatusCode.OK, response.StatusCode);
         }
 
         [Test]

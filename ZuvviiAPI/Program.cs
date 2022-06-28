@@ -113,3 +113,6 @@ void ConfigureStorage(WebApplicationBuilder builder)
     builder.Services.AddTransient<IStorageService, IStorageServiceImpl>();
 
 }
+
+
+public partial class Program { }

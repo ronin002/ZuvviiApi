@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace ZuvviiAPI.Controllers
 {
     [Authorize]
+    [ApiController]
     public class BaseController : ControllerBase
     {
         protected readonly IUserRepository _userRepository;

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZuvviiAPI", "ZuvviiAPI\ZuvviiAPI.csproj", "{BB1BEB3A-2EC6-4F71-9A85-A5D9C3614F8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB1BEB3A-2EC6-4F71-9A85-A5D9C3614F8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB1BEB3A-2EC6-4F71-9A85-A5D9C3614F8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB1BEB3A-2EC6-4F71-9A85-A5D9C3614F8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB1BEB3A-2EC6-4F71-9A85-A5D9C3614F8C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B12EEED8-1848-46B0-B718-4B3005DC1F1C}
+	EndGlobalSection
+EndGlobal
